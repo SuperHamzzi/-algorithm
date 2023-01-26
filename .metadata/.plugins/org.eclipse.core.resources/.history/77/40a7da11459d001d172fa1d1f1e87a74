@@ -1,0 +1,22 @@
+package algo;
+
+import java.util.Scanner;
+
+public class a7 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		String answer = "";
+		char[] upStr=str.toUpperCase().toCharArray();
+		int lt = 0;
+		int rt = str.length()-1;
+		while(lt<rt) {
+			if(upStr[lt]==upStr[rt]) {
+				answer +=upStr[lt];
+			}
+			lt++;
+			rt--;
+		}
+		System.out.println(answer);
+	}
+}

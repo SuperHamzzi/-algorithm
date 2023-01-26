@@ -1,0 +1,21 @@
+package algo;
+
+import java.util.Scanner;
+
+public class a7 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		String a = "YES";
+		char[] upStr=str.toUpperCase().toCharArray();
+		int lt = 0;
+		int rt = str.length()-1;
+		while(lt<rt) {
+			if(upStr[lt]!=upStr[rt]) {
+					a = "NO";
+			}
+	}
+		System.out.println(a);
+	}
+}
+

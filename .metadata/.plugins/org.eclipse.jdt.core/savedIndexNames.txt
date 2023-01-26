@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\gksrn_pl1\OneDrive\바탕 화면\알고리즘 공부\.metadata\.plugins\org.eclipse.jdt.core
+2920634722.index
+1865797976.index
+1993351773.index
