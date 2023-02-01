@@ -19,7 +19,6 @@ public class a10 {
 				answer[i]=p;
 			}
 		}
-		p=1000;
 		for(int i=a.length()-1; i>=0;i--) {
 			if(c[i]=='e') {
 				p=0;

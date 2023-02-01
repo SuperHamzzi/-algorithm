@@ -7,7 +7,7 @@ public class a11 {
 		Scanner sc = new Scanner(System.in);
 		String a = sc.next();
 		char b = sc.next().charAt(0);
-		int[] answer = new int[a.length()];
+		int[] answer = new int[a.length()+1];
 		int p =1000;
 		for(int i=0; i<a.length(); i++) {
 			if(a.charAt(i)==b) {
